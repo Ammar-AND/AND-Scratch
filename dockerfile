@@ -1,5 +1,8 @@
 FROM node:9.5
 
+ENV FE_PORT = 3000
+ENV FILE_DIR = "./frontEnd"
+
 WORKDIR /app
 
 COPY package.json .
